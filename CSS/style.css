@@ -1,0 +1,64 @@
+.titulo {
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin: 50px;
+    padding: 80px;
+    text-align: left;
+    background-color: lemonchiffon;
+}
+
+.img {
+    clip-path: circle(40%);
+    float: right;
+    max-width: 355px;
+    margin-top: -257.7px;
+}
+
+.seccion-producto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.producto img {
+    width: 350px;
+    height: 350px;
+    padding-left: 150px;
+    object-fit: cover;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.parrafo1, .parrafo2, .parrafo3, .parrafo4, .parrafo5, .parrafo6 {
+    margin: 0;
+    padding: 0;
+}
+
+.pie {
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin: 50px;
+    padding: 80px;
+    text-align: left;
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: center;
+}
